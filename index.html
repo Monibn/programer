@@ -1,61 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="وبسایت شخصی Monib Mohmadi Nik - درباره من و پروژه‌های من.">
-    <title>Monib Mohmadi Nik - وبسایت شخصی</title>
+    <title>Monib Mohmadi Nik</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f7f7f7;
+            /* پس‌زمینه روشن */
             margin: 0;
             padding: 0;
+            color: #333;
         }
+
         header {
             background-color: #4CAF50;
             color: white;
             text-align: center;
-            padding: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         main {
             padding: 2rem;
-            text-align: center;
         }
+
         footer {
-            background-color: #333;
+            background-color: #4CAF50;
             color: white;
             text-align: center;
             padding: 1rem;
             position: fixed;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .container {
             background-color: white;
             margin: 2rem auto;
             padding: 2rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
             border-radius: 10px;
+            text-align: center;
         }
+
         .profile-pic {
             border-radius: 50%;
             width: 150px;
             height: 150px;
             object-fit: cover;
-        
+        }
+
+        .resume {
+            text-align: left;
+            margin-top: 2rem;
+        }
+
+        .resume h3 {
+            color: #4CAF50;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            margin: 0 0.5rem;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>سلام جیگرم به سایت من خوش اومدی❤️ 
-من اسم من منیب اگه پروژه داری می تونم برات انجام بدم ❤️
-</h1>
-        <h2>اگه میخوایی کمکت کنم به این شماره پیام بده 👇 
-
-</h2>
-              <h3>09919180423</h3>
+        <h1>Monib Mohmadi Nik</h1>
     </header>
+    <main>
+        <div class="container">
+            <img src="profile.jpg" alt="Monib Mohmadi Nik" class="profile-pic">
+            <h2>درباره من</h2>
+            <p>سلام! من منیب محمدی نیک هستم. من برنامه‌نویس هستم و از ایران می‌آیم. این وبسایت شخصی من است که در آن
+                علاقه‌ها و پروژه‌هایم را به اشتراک می‌گذارم.</p>
+            <h2>رزومه</h2>
+            <div class="resume">
+                <h3>تحصیلات</h3>
+                <ul>
+                    <li>مدرک برنامه‌نویسی شاتل</li>
+                    <li>تخصصی(python)مدرک </li>
+                </ul>
+                <h3>مهارت‌ها</h3>
+                <ul>
+                    <li>تسلط کامل به پایتون </li>
+                    <li>توسعه وب (HTML، CSS، JavaScript)</li>
+                </ul>
+                <h3>تجربه‌ها</h3>
+                <ul>
+                    <li>کار بر روی پروژه‌های مختلف توسعه وب</li>
+                </ul>
+            </div>
+            <h2>تماس با من</h2>
+            <p>می‌توانید از طریق ایمیل monibhwi@gmail.com </p>
+            <p class="contact-info">تلگرام: @Monib009</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Monib Mohmadi Nik. همه حقوق محفوظ است.</p>
+    </footer>
+</body>
+
+</html>
